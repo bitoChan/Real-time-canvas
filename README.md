@@ -4,6 +4,7 @@ License: For commercial use, please contact: bito.chan@medsimhealth.com. If you 
 Main Features: Generates an image within 1 second using basic image-to-image (canvas) functionality and prompts and adjusted the UI interface and modified other image generation models to meet my needs.
 
 Reference: This project is clone by "https://github.com/flowtyone/flowty-realtime-lcm-canvas" :flowty-realtime-lcm-canvas
+Source code copy file is in "branches>main"
 
 #即時畫布
 二次創作授權： 
@@ -13,3 +14,4 @@ Reference: This project is clone by "https://github.com/flowtyone/flowty-realtim
 主要功能： 基础的image-to-image（canvas）以及prompt的作用下，在1秒以内生成一张图片。并且調整了UI界面和修改了其他圖片生成模型以滿足我的需求。
 
 參考：這個項目是克隆了這個項目 "https://github.com/flowtyone/flowty-realtime-lcm-canvas":flowty-realtime-lcm-canvas
+原始碼複製檔案在"branchs>main"
