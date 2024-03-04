@@ -21,8 +21,9 @@ with gr.Blocks() as demo:
                 c = gr.Slider(label="cfg", minimum=0.1, maximum=3, step=0.1, value=1, interactive=True, visible=False)
                 i_s = gr.Slider(label="sketch strength", minimum=0.1, maximum=0.9, step=0.1, value=0.9, interactive=True, visible=False)
             with gr.Column():
-                mod = gr.Text(label="Model Hugging Face id (after changing this wait until the model downloads in the console)", value="Lykon/dreamshaper-7", interactive=True, visible=False)
-                #mod = gr.Text(label="當前為測試版，3060的生成時間0.3-1秒，公共服務器為1-2秒", value=Lykon/dreamshaper-7"Lykon/dreamshaper-7", interactive=False, visible=False)
+                #AbukaV/mistoon_anime  is a anime style checkpoint
+                mod = gr.Text(label="Model Hugging Face id (after changing this wait until the model downloads in the console)", value="AbukaV/mistoon_anime", interactive=True, visible=False)
+                #mod = gr.Text(label="Model Hugging Face id (after changing this wait until the model downloads in the console)", value="Lykon/dreamshaper-7", interactive=True, visible=False)
                 #t = gr.Textbox(label="Prompt", value="Cat and blue sky", interactive=True)
                 se = gr.Number(label="seed", value=1337, interactive=False, visible=False)
         with gr.Row(equal_height=True):

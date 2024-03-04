@@ -50,8 +50,9 @@ def load_image(image):
         raise ValueError(
             "Incorrect format used for the image. Should be a URL linking to an image, a local path, or a PIL image."
         )
-#def load_models(model_id="sinkinai/Beautiful-Realistic-Asians-v5"):
-def load_models(model_id="Lykon/dreamshaper-7"):
+    #download AbukaV/mistoon_anime
+def load_models(model_id="AbukaV/mistoon_anime"):
+#def load_models(model_id="Lykon/dreamshaper-7"):
     from diffusers import AutoPipelineForImage2Image, LCMScheduler
 
     if not is_mac:
