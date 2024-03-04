@@ -5,7 +5,7 @@ Main Features: Generates an image within 1 second using basic image-to-image (ca
 
 Reference: This project is clone by "https://github.com/flowtyone/flowty-realtime-lcm-canvas"   flowty-realtime-lcm-canvas
 Source code copy file is in "branches>main"
-![IMG1](https://github.com/bitoChan/Real-time-canvas)
+![IMG1](IMG1.png)
 
 #即時畫布
 二次創作授權： 
@@ -16,4 +16,4 @@ Source code copy file is in "branches>main"
 
 參考：這個項目是克隆了這個項目 "https://github.com/flowtyone/flowty-realtime-lcm-canvas"    flowty-realtime-lcm-canvas
 原始碼複製檔案在"branchs>main"
-![IMG2](https://github.com/bitoChan/Real-time-canvas)
+![IMG2](IMG2.png)
