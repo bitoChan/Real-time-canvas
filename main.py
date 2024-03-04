@@ -5,6 +5,7 @@ from contextlib import nullcontext
 import time
 from sys import platform
 import torch
+from PIL import Image
 
 cache_path = path.join(path.dirname(path.abspath(__file__)), "models")
 
@@ -42,10 +43,17 @@ class timer:
         end = time.time()
         print(f"{self.method} took {str(round(end - self.start, 2))}s")
 
-
-def load_models(model_id="Lykon/dreamshaper-7"):
+def load_image(image):
+    if isinstance(image, Image.Image):
+        return image
+    else:
+        raise ValueError(
+            "Incorrect format used for the image. Should be a URL linking to an image, a local path, or a PIL image."
+        )
+    #download AbukaV/mistoon_anime
+def load_models(model_id="AbukaV/mistoon_anime"):
+#def load_models(model_id="Lykon/dreamshaper-7"):
     from diffusers import AutoPipelineForImage2Image, LCMScheduler
-    from diffusers.utils import load_image
 
     if not is_mac:
         torch.backends.cuda.matmul.allow_tf32 = True
